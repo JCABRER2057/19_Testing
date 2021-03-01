@@ -65,6 +65,7 @@ class StatisticsViewModel(private val tasksRepository: TasksRepository) : ViewMo
     }
 }
 
+
 @Suppress("UNCHECKED_CAST")
 class StatisticsViewModelFactory (
         private val tasksRepository: TasksRepository
